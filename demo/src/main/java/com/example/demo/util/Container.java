@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 多线程容器
+ * 多线程容器示例
  */
 public class Container {
     volatile List<Object> list = new ArrayList<>(10);
